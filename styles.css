@@ -68,33 +68,29 @@ body {
     letter-spacing: 4px;
 }
 
-.header {
+.header-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1em;
     position: absolute;
     top: 38%;
     left: 46%;
     transform: translate(-50%, -50%);
+    backdrop-filter: blur(40px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 
-.header h1 {
+.header-container h1 {
     color: #fff;
     font-weight: bolder;
 }
 
-.header p {
+.header-container p {
     color: #fff;
     font-weight: lighter;
 }
 
-.header button {
-    margin-top: 12px;
-    border: none;
-    padding: 16px 40px;
-    background: #fff;
-    color: #000;
-    letter-spacing: 4px;
-    font-weight: 600;
-    font-size: 12px;
-}
 
 .bottom-bar {
     color: #fff;
