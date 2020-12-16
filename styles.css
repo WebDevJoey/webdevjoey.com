@@ -52,7 +52,7 @@ body {
     transform: translateY(-50%);
 }
 
-.social-media ul li {
+.social-media-container ul li {
     list-style: none;
     color: #fff;
     padding-top: 20px;
