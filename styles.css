@@ -69,13 +69,16 @@ body {
 }
 
 .header-container {
+    display: inline-block;
     background: rgba(255, 255, 255, 0.2);
+    padding: 3em;
     border-radius: 1em;
-    position: absolute;
+    position: relative;
     top: 38%;
     left: 46%;
     transform: translate(-50%, -50%);
     backdrop-filter: blur(40px);
+    z-index: 1;
     border: solid 2px transparent;
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
