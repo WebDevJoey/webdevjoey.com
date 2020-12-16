@@ -22,7 +22,8 @@
 
     <!-- greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
@@ -103,6 +104,14 @@
 
 
 <script type="text/javascript">
+    
+const glass = document.getElementById('glass');
+
+const tl = gsap.timeline({defaults: {ease: "none", duration: 1.5}})
+
+tl.from("body", {y: '0', opacity: 0})
+  .from('.header-container-fluid', {opacity: 0, delay: .5, duration: 1}, "-=2.0" )
+  .from('.header-container-fluid', {x: '-20%', backdropFilter: 'blur(0px'})
 
 TweenMax.to(".overlay h1", 2, {
       opacity: 0,
