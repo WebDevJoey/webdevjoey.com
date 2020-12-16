@@ -46,19 +46,19 @@ body {
     padding-right: 36px;
 }
 
-.social-media-container{
+.social-media-container-fluid{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.social-media-container ul li {
+.social-media-container-fluid ul li {
     list-style: none;
     color: #fff;
     padding-top: 20px;
 }
 
-.side-strip-container {
+.side-strip-container-fluid {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -68,7 +68,7 @@ body {
     letter-spacing: 4px;
 }
 
-.header-container {
+.header-container-fluid {
     display: inline-block;
     background: rgba(255, 255, 255, 0.2);
     padding: 3em;
@@ -84,12 +84,12 @@ body {
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 
-.header-container h1 {
+.header-container-fluid h1 {
     color: #fff;
     font-weight: bolder;
 }
 
-.header-container p {
+.header-container-fluid p {
     color: #fff;
     font-weight: lighter;
 }
