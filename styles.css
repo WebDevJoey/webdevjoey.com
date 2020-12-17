@@ -96,11 +96,16 @@ body {
 
 
 .bottom-bar {
-    color: #fff;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    right: 0;
+      display: inline-block;
+      padding: 1.2em;
+      background: rgba(255, 255, 255, 0.2);
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+      backdrop-filter: blur(40px);
+      z-index: 1;
+      border: solid 2px transparent;
+      background-clip: padding-box;
+      box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03)
 }
 
 .row {
