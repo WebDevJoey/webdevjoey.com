@@ -96,6 +96,14 @@ body {
 
 
 .bottom-bar {
+      color: #fff;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      right: 0;
+}
+
+.row {
       display: inline-block;
       padding: 1.2em;
       background: rgba(255, 255, 255, 0.2);
@@ -106,13 +114,6 @@ body {
       border: solid 2px transparent;
       background-clip: padding-box;
       box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03)
-}
-
-.row {
-    padding: 2.6em 2.6em 2em 2.6em;
-    background: #000;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
 }
 
 .bottom-bar h6 {
